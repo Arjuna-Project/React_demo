@@ -1,13 +1,12 @@
 import './App.css'
-import Card from './components/Card.jsx'
-import './assets/Flex Image Ratio.png'
+import Landingpage from './components/Landingpage.jsx'
 
 function App() {
 
 
   return (
     <>
-      <Card/>
+      <Landingpage/>
     </>
   )
 }
