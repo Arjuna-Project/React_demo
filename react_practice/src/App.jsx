@@ -1,8 +1,9 @@
 import './App.css'
-import Landingpage from './components/Landingpage.jsx'
-import ProductList from './components/ProductList.jsx'
-import WordCounter from './components/WordCounter.jsx'
-import Calculator from './components/Calculator.jsx'
+import Landingpage from './components/Landingpage/Landingpage.jsx'
+import Card from './components/Card/Card.jsx'
+import ProductList from './components/ProductCard/ProductList.jsx'
+import Calculator from './components/Calculator/Calculator.jsx'
+import WordCounter from './components/Wordcounter/WordCounter.jsx'
 
 function App() {
 
@@ -10,9 +11,10 @@ function App() {
   return (
     <>
       <Landingpage/>
-      {/* <ProductList/>
+      <Card/>
+      <ProductList/>
+      <Calculator/>
       <WordCounter/>
-      <Calculator/> */}
     </>
   )
 }

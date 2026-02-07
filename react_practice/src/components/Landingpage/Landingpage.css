@@ -1,5 +1,6 @@
 .container{
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
 }
 
 .nav-bar{
@@ -7,6 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .nav-logo {
@@ -24,6 +26,7 @@
   font-weight: 600;
   color: white;
 }
+
 .icons{
     display: inline;
     justify-content: flex-end;

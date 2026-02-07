@@ -1,11 +1,11 @@
-import img1 from '../assets/Flex Image Ratio.png'
+import img1 from '../../assets/Flex Image Ratio.png'
 import './Card.css'
 
 function Card(){
     return(
-        <div className="container">
+        <div className="card-container">
             <div className="card">
-                <img src={img1} alt="Telephone image"></img>
+                <img src={img1} alt="Telephone image" className='card-img'></img>
             </div>
             <p className='new'>NEW ARRIVAL</p>
             <h2>SMARTPHONE XYZ</h2>
@@ -26,7 +26,7 @@ function Card(){
                     Perfect for those seeking performance and style.
                 </p>
             </div>
-        <button>BUY NOW</button>
+        <button className='card-button'>BUY NOW</button>
         </div>
     )
 }

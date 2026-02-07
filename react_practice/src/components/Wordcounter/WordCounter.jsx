@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./WordCounter.css";
 
 function WordCounter() {
   const [text, setText] = useState("");
@@ -10,11 +11,10 @@ function WordCounter() {
   const wordCount = text.split(" ").filter(word => word !== "").length;
 
   return (
-    <div className="container mt-4">
+    <div className="word-counter">
       <h3>Word Counter</h3>
 
       <textarea
-        className="form-control"
         rows="4"
         placeholder="Type something..."
         onChange={handleChange}

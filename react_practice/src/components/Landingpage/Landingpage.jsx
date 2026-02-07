@@ -1,14 +1,14 @@
-import logo from "../assets/landing_page/logo_light.png";
-import insta from "../assets/landing_page/social_light1.png";
-import facebook from "../assets/landing_page/social_light2.png";
-import user from "../assets/landing_page/user.png";
-import pro1 from "../assets/landing_page/product1.png";
-import pro2 from "../assets/landing_page/product2.png";
-import pro3 from "../assets/landing_page/product3.png";
-import logo_footer from "../assets/landing_page/logo.png";
-import insta_footer from "../assets/landing_page/social1.png";
-import facebook_footer from "../assets/landing_page/social2.png";
-import "./Landingpage.css";
+import logo from "../../assets/landing_page/logo_light.png";
+import insta from "../../assets/landing_page/social_light1.png";
+import facebook from "../../assets/landing_page/social_light2.png";
+import user from "../../assets/landing_page/user.png";
+import pro1 from "../../assets/landing_page/product1.png";
+import pro2 from "../../assets/landing_page/product2.png";
+import pro3 from "../../assets/landing_page/product3.png";
+import logo_footer from "../../assets/landing_page/logo.png";
+import insta_footer from "../../assets/landing_page/social1.png";
+import facebook_footer from "../../assets/landing_page/social2.png";
+import './Landingpage.css'
 
 function Landingpage() {
   return (
