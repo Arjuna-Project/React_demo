@@ -4,6 +4,7 @@ import Card from './components/Card/Card.jsx'
 import ProductList from './components/ProductCard/ProductList.jsx'
 import Calculator from './components/Calculator/Calculator.jsx'
 import WordCounter from './components/Wordcounter/WordCounter.jsx'
+import Dialog from './components/Dialogbox/Dailog.jsx'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <ProductList/>
       <Calculator/>
       <WordCounter/>
+      <Dialog/>
     </>
   )
 }
